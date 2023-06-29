@@ -1,0 +1,27 @@
+
+.config-header{
+    background-color: black;
+    display: flex;
+    height: 300px 200px 300px;
+    color: white;
+    gap: 80px;
+    justify-content: center; 
+        
+}
+
+.config-logo{
+    max-width: 150px;
+    margin: 20px;
+
+}
+
+.text-header{
+    text-align: center;
+    font-size: 12px;
+    font-family: Sans-Serif;
+    justify-content: center;
+    line-height: 100px;
+    font-weight: bold;
+
+    
+}
