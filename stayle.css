@@ -1,18 +1,19 @@
-
+body {
+    margin: 0;
+    padding: 0;
+}
 .config-header{
     background-color: black;
     display: flex;
     height: 300px 200px 300px;
     color: white;
     gap: 80px;
-    justify-content: center; 
-        
+    justify-content: center;        
 }
 
 .config-logo{
     max-width: 150px;
     margin: 20px;
-
 }
 
 .text-header{
@@ -21,7 +22,56 @@
     font-family: Sans-Serif;
     justify-content: center;
     line-height: 100px;
-    font-weight: bold;
+    font-weight: bold;    
+}
 
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    font-size: 20px;
+    font-weight: 400px;
+    background-image: url(sala.jpeg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    color: white;
+    font-family: Sans-Serif;
+}
+    
+    
+.p-conteudo{
+    margin-bottom: 8px; 
+}
+     
+
+.button-mais{
+    background-color: #d4c500;
+    color: #ab226d;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 50px;    
+    font-family: Montserrat, Sans-Serif;
+    text-align: center;
+}
+
+.h1-cursos{
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    
+}
+.cursos{
+    background-color: black;
+    color: white;
+    border: none;    
+    display: flex;
+    flex-direction: column;
+}
+
+.cur-blocos{
     
 }
